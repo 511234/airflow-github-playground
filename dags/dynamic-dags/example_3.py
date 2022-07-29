@@ -8,14 +8,14 @@ dag_id = "example_3"
 
 with DAG(dag_id=dag_id, default_args=default_args, schedule_interval=None) as dag:
 
-    list_one_to_twenty = list(range(1, 21))
+    list_one_to_twenty = list(range(1, 11))
 
     @task
     def dummy_start_task():
         print("start")
 
     tasks = []
-    for i in range(10):
+    for i in range(5):
 
         @task(task_id=f"test_{str(i)}")
         def each_value(x: int):

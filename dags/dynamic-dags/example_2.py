@@ -9,10 +9,10 @@ dag_id = "example_2"
 
 with DAG(dag_id=dag_id, default_args=default_args, schedule_interval=None) as dag:
 
-    list_one_to_hundred = list(range(1, 101))
+    list_one_to_ten = list(range(1, 11))
 
     @task
     def each_value(x: int):
         return x
 
-    each_value_in_list = each_value.expand(x=list_one_to_hundred)
+    each_value_in_list = each_value.expand(x=list_one_to_ten)
