@@ -4,7 +4,6 @@ from utils.constants import default_args
 
 dag_id = "example_1"
 
-
 class SomeClass:
     def __init__(self, some_name="some_first_name"):
         self.some_name = some_name
