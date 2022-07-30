@@ -11,7 +11,7 @@ Example 1
 Example 2
 <img width="1915" alt="Screenshot 2022-07-29 at 21 28 50" src="https://user-images.githubusercontent.com/76647602/181908863-3f294add-6fae-4bdc-a817-2e4b32571fde.png">
 
-Example 3
+Example 3 (Combination of example 1 and example 2)
 <img width="1917" alt="Screenshot 2022-07-29 at 21 31 49" src="https://user-images.githubusercontent.com/76647602/181908867-9312b477-0c0a-49d6-b074-6e05f238b945.png">
 
 Example 4
