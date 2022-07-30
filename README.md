@@ -1,3 +1,8 @@
+# Personal experience and practical example of using Apache Airflow
+## Config
+Version: 2.3.3  
+Executor: LocalExecutor
+
 ## Dag with dynamic tasks
 
 Example 1
